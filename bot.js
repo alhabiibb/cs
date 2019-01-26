@@ -6,13 +6,13 @@ const Discord = require('discord.js'),
 
 client.on('guildMemberAdd', member => {
 
-const mohamed= member.guild.channels.get("511595760345939968");
+const mohamed= member.guild.channels.get("532228348278079489");
 
 if(!mohamed) return;
 
 if(mohamed) {
 
-setTimeout(() => mohamed.send(`**Ꮃelcome Ꭲo Ꮪerver Trick..**`), 6000)        
+setTimeout(() => mohamed.send(`Welcome to  **Arbilank** Server`), 6000)        
 
 }
 
